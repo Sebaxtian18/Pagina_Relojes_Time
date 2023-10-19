@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+li{
+    list-style: none;
+    margin-right: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 21px;
+    margin-top: 20px;
+}
+span{
+    font-weight: lighter;
+    color: black;
+    display: inline-block;
+}
+.bacground-inicio{
+    width: 100%;
+    height: 800px;
+    background-image: url('/Recursos/imgfondo.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+header{
+    background: transparent;
+    padding: 30px;
+}
+.flotante-izquierdo{
+    float: left;
+    margin-left: 50px;
+    position: fixed;
+}
+#logo{
+   font-size: 22px;
+   z-index: 2;
+}
+h1 a{
+    background-image: linear-gradient(#f9f295, #e0aa3e, #edc967, #b88a44);
+    color: transparent; /* Hace que el texto sea transparente */
+    -webkit-background-clip: text; /* Para navegadores basados en WebKit (como Chrome y Safari) */
+    background-clip: text; /* Para navegadores que no utilizan el prefijo -webkit- */
+}
+.flotante-derecho{
+    float: right;
+}
+nav ul{
+    display: flex;
+    margin-right: 0px;
+}
+nav ul li::after{
+    content: " | ";
+}
+a:hover{
+    background-image: linear-gradient(#f9f295, #e0aa3e);
+    color: transparent; /* Hace que el texto sea transparente */
+    -webkit-background-clip: text; /* Para navegadores basados en WebKit (como Chrome y Safari) */
+    background-clip: text; /* Para navegadores que no utilizan el prefijo -webkit- */
+}
+.encabezado{
+    position: relative;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.encabezado article {
+    font-size: 60px;
+        background-image: linear-gradient(#f9f295, #e0aa3e, #edc967, #b88a44);
+        color: transparent; /* Hace que el texto sea transparente */
+        -webkit-background-clip: text; /* Para navegadores basados en WebKit (como Chrome y Safari) */
+        background-clip: text; /* Para navegadores que no utilizan el prefijo -webkit- */
+        font-weight: bolder;
+        font-style: italic;
+        margin-top: 200px;
+}
+.encabezado article p {
+    text-align: center;
+}
+.enunciado1{
+    width: 80%;
+    background: white;
+    position: relative;
+    bottom: 25px;
+    text-align: center;
+    left: 150px;
+    font-size: 25px;
+    border: solid 1px black;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 2px;
+}
+.enunciado1 h1{
+    margin-bottom: 5px;
+    font-weight: lighter;
+}
+.enunciado1 p{
+    text-align: left;
+    margin-left: 17px;
+}
+main{
+    width: 100%;
+    height: auto;
+    font-size: 20px;
+    margin-top: 25px;
+    text-align: center;
+}
+.articulo img{
+    width: 400px;
+    height: auto;
+}
+.articulo{
+    text-align: left;
+    margin-top: 25px;
+    width: 80%;
+    margin-left: 230px;
+    column-gap: 30px;
+    column-count: 2;
+    column-width: auto;
+}
+.articulo :nth-child(1){
+   font-variant: small-caps;
+   margin-bottom: 3px;
+   font-style: italic;
+   background-image: linear-gradient(#f9f295, #e0aa3e, #edc967, #b88a44);
+   color: transparent; /* Hace que el texto sea transparente */
+   -webkit-background-clip: text; /* Para navegadores basados en WebKit (como Chrome y Safari) */
+   background-clip: text; /* Para navegadores que no utilizan el prefijo -webkit- */
+}
+footer{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient();
+}
+footer h1{
+    background-image: linear-gradient(#f9f295, #e0aa3e, #edc967, #b88a44);
+    color: transparent; /* Hace que el texto sea transparente */
+    -webkit-background-clip: text; /* Para navegadores basados en WebKit (como Chrome y Safari) */
+    background-clip: text; /* Para navegadores que no utilizan el prefijo -webkit- */
+}
