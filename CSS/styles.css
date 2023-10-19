@@ -23,7 +23,7 @@ span{
 .bacground-inicio{
     width: 100%;
     height: 800px;
-    background-image: url('/Recursos/img-cabecera/imgfondo.jpg');
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/github-pages-7777b.appspot.com/o/Evidencias%20Introduccion%20a%20la%20programacion%2Fimgfondo.jpg?alt=media&token=ed3984cc-3114-4186-ad9f-cb60a089c7dd');
     background-size: 100%;
     background-repeat: no-repeat;
 }
