@@ -23,7 +23,7 @@ span{
 .bacground-inicio{
     width: 100%;
     height: 800px;
-    background-image: url('/Recursos/imgfondo.jpg');
+    background-image: url('/Recursos/img-cabecera/imgfondo.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
 }
