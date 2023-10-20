@@ -123,6 +123,12 @@ main{
     column-count: 2;
     column-width: auto;
 }
+.articulo p{
+    border-right: solid 2px lemonchiffon;
+    border-bottom: solid lemonchiffon;
+    border-bottom-right-radius: 2px;
+
+}
 .articulo :nth-child(1){
    font-variant: small-caps;
    margin-bottom: 3px;
