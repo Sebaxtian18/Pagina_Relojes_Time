@@ -103,7 +103,7 @@ a:hover{
     font-size: 25px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     border-radius: 2px;
-    background: linear-gradient( 10deg, #f8f9fa, #ffffff, #adb5bd, #f8f9fa 75%);
+    background: linear-gradient( 10deg, #f8f9fa, #ffffff, #adb5bd, #f8f9fa 85%);
 }
 .enunciado1 h1{
     margin-bottom: 5px;

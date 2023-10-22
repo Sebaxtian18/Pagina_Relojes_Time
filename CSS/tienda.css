@@ -4,12 +4,8 @@
     box-sizing: border-box;
 }
 body{
-    background: repeating-linear-gradient(
-        75deg, #283618, #fefae5, #bc6c25, #dda15e, #bc6c25, #fefae0, #606c38 
-      70.71%);
-      background-repeat: no-repeat;
-      width: 100%;
-      height: 10000px;
+    background: linear-gradient( 65deg,  #f8f9fa, #e9ecef, #dee2e6, #f8f9fa, #ced4da, #adb5bd, #6c757d, #d9d9d9, #adb5bd 55%);
+    background-repeat: no-repeat;
 }
 /*Estilos para las etiquetas de hipervinculo*/
 a{
