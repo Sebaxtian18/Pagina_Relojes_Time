@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: repeating-linear-gradient(
+        75deg, #283618, #fefae5, #bc6c25, #dda15e, #bc6c25, #fefae0, #606c38 
+      70.71%);
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 10000px;
+}
+/*Estilos para las etiquetas de hipervinculo*/
+a{
+    text-decoration: none;
+    color: white;
+}
+/*Estilos para los elementos de lista*/
+li{
+    list-style: none;
+    margin-right: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 21px;
+    margin-top: 20px;
+}
+/* Estilo para el span del logo*/
+span{
+    font-weight: lighter;
+    color: black;
+    display: inline-block;
+}
+header{
+    background: transparent;
+    padding: 30px;
+}
+.flotante-izquierdo{
+    float: left;
+    margin-left: 50px;
+    position: fixed;
+}
+#logo{
+   font-size: 22px;
+   z-index: 2;
+}
+h1 a{
+    background-image: linear-gradient(#f9f295, #e0aa3e, #edc967, #b88a44);
+    color: transparent; /* Hace que el texto sea transparente */
+    -webkit-background-clip: text; /* Para navegadores basados en WebKit (como Chrome y Safari) */
+    background-clip: text; /* Para navegadores que no utilizan el prefijo -webkit- */
+}
+.flotante-derecho{
+    float: right;
+}
+nav ul{
+    display: flex;
+    margin-right: 0px;
+}
+nav ul li::after{
+    content: " | ";
+}
+a:hover{
+    background-image: linear-gradient(#f9f295, #e0aa3e);
+    color: transparent; /* Hace que el texto sea transparente */
+    -webkit-background-clip: text; /* Para navegadores basados en WebKit (como Chrome y Safari) */
+    background-clip: text; /* Para navegadores que no utilizan el prefijo -webkit- */
+}
+/*Estilos top tienda*/
+
