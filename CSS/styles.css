@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     background: linear-gradient( 65deg,  #f8f9fa, #e9ecef, #dee2e6, #f8f9fa, #ced4da, #adb5bd, #6c757d, #d9d9d9, #adb5bd 55%);
 }
