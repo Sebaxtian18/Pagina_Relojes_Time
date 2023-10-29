@@ -102,7 +102,7 @@ a:hover{
     position: relative;
     bottom: 25px;
     text-align: center;
-    left: 150px;
+    margin: auto;
     font-size: 25px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     border-radius: 2px;
@@ -135,7 +135,7 @@ main{
     text-align: left;
     margin-top: 25px;
     width: 80%;
-    margin-left: 230px;
+    margin-left: auto;
     column-gap: 30px;
     column-count: 2;
     column-width: auto;
